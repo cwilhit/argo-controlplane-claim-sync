@@ -1,9 +1,0 @@
-apiVersion: demo.upbound.io/v1alpha1
-kind: VirtualMachine
-metadata:
-  name: my-vm-from-argo-git
-  namespace: default
-spec:
-  id: my-vm-from-argo-git
-  parameters:
-    location: East US
